@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+ >
+
+ <LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+     >
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_margin="5dp"
+         android:text="Uid karty" />
+
+     <EditText
+         android:id="@+id/requestUid"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="3dp"
+         android:layout_marginLeft="3dp"
+         android:layout_marginRight="7dp"
+         android:layout_marginTop="3dp" />
+
+     <Button
+         android:id="@+id/requestSend"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         android:layout_marginLeft="3dp"
+         android:layout_marginTop="3dp"
+         android:ellipsize="none"
+         android:onClick="buttonRequestClick"
+         android:text="@string/send" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="fill_parent"
+         android:layout_height="4dp"
+         android:background="#aaa" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="3dp"
+         android:layout_marginTop="10dp"
+         android:text="@string/response"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/responseContent"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="9dp"
+         android:layout_weight="2.64"
+         android:background="#444"
+         android:ellipsize="none"
+         android:padding="5dp"
+         android:text="[log wiadomości]"
+         android:textColor="#ccc" />
+
+ </LinearLayout>
+
+ </ScrollView>

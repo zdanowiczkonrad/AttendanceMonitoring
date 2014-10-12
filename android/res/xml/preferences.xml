@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <EditTextPreference android:title="ID sali"
+                      android:key="id_sali" 
+                      android:numeric="integer"
+                      android:summary="Identyfikator sali, do której przypisano czytnik" android:defaultValue="1"></EditTextPreference>
+
+  <!--  
+  <ListPreference     android:title="Download Details"
+                      android:summary="Select the kind of data that you would like to download"
+                      android:key="downloadType"
+                      android:defaultValue="1"
+                      android:entries="@array/listArray"
+                      android:entryValues="@array/listValues" />  
+                      -->
+  <EditTextPreference android:key="tcp_port" android:numeric="integer" android:title="Numer portu" android:summary="Numer portu, przez który klient komunikuje się z serwerem" android:defaultValue="2323"/>
+  <EditTextPreference android:summary="Adres IP serwera" android:defaultValue="192.168.1.103" android:key="server_ip" android:title="IP serwera"/>
+</PreferenceScreen>

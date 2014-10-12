@@ -1,0 +1,73 @@
+
+#form_glowny label.required {
+	background-color: red;
+}
+
+#form_glowny  table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  empty-cells: show;
+}
+
+#form_glowny .label {
+  padding-top: 2px;
+  padding-right: 8px;
+  vertical-align: top;
+  text-align: right;
+  width: 125px;
+  white-space: nowrap;
+}
+
+#form_glowny .status {
+
+	padding-left: 5px;
+  vertical-align: middle;
+
+}
+
+
+#form_glowny label.error {
+  background:url("gfx/unchecked.gif") no-repeat 0px 0px;
+  padding-left: 20px;
+  padding-bottom: 2px;
+ 
+  color: #EA5200;
+}
+
+#form_glowny label.checked {
+	
+  background:url("gfx/tick.png") no-repeat 0px 0px;
+}
+
+
+
+
+#form_glowny  #signupform .success_msg {
+  font-weight: bold;
+  color: #0060BF;
+  margin-left: 19px;
+}
+
+#form_glowny  #dateformatStatus, #form_glowny  #termsStatus {
+  margin-left: 6px;
+}
+
+#form_glowny  #dateformat_eu {
+ vertical-align: middle;
+}
+
+#form_glowny  #ldateformat_eu {
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+#form_glowny #dateformat_am {
+  vertical-align: middle;
+}
+
+#form_glowny #ldateformat_am {
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+#

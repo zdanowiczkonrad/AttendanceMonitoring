@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	font-family: "Segoe UI","Droid Sans",Helvetica,Verdana,Arial,Tahoma,sans-serif;
+} 
+
+fieldset {
+	border: 0;
+	background: url('gfx/absback.png') no-repeat;
+
+	width: 550px;
+	margin: 50px auto 0;
+}
+h1 {
+		font-weight: normal;
+		font-size: 15px;
+		color: #444444;
+		margin-top: 50px;
+		display: block;
+		margin-left: 60px;
+}
+h2 {
+	font-weight: normal;
+	font-size: 26px;
+	margin-left: 60px;
+}
+table {
+	display: block;
+	width: 550px;
+	margin: 60px auto;
+
+}
+
+label {
+	font-size: 11px;
+	color: #666;
+	text-align: right;
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+input#login, input#pass {
+	width: 200px;
+	border: 1px #CCCCCC solid;
+	background: white;
+	font-size: 12px;
+	padding: 5px;
+	box-shadow: inset #ddd 1px 1px 2px;
+	border-radius: 2px;
+	    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+	opacity: 0.6;
+}
+
+
+input#login:focus, input#pass:focus {
+	width: 200px;
+	border-color: #B6B6B6;
+	background: white;
+	opacity: 1;
+}
+
+input#submit {
+
+	margin: 20px auto;
+	display: block;
+
+	padding: 2px 4px;
+	padding-bottom: 2px;
+	font-size: 12px;
+	background-color:#555;
+	border:0;
+	color:white;
+	border-radius:2px;
+
+}
+
+input#submit:hover{
+
+}
+strong {
+	font-size: 13px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	padding: 3px;
+	color: orange;
+	font-weight: normal;
+}
+.note {
+	background: white;
+	display: block;
+	width: 100%;
+	position: fixed; bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	box-shadow: white 0 0 20px;
+	opacity: 0.8;
+}

@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Obecnosci</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Ustawienia...</string>
+    <string name="title_activity_main">Obecności Klient</string>
+    <string name="UID">UID</string>
+    <string name="simulate_date">Symuluj datę</string>
+    <string name="send">Wyślij zapytanie</string>
+    <string name="response">Odpowiedź serwera</string>
+    <string name="simulate_uid">Symuluj UID</string>
+    <string name="client_id">ID klienta</string>
+    <string name="menu_exit">Wyjście</string>
+    <string name="menu_minimalize">Zminimalizuj</string>
+
+</resources>
