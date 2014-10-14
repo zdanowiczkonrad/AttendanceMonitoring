@@ -17,3 +17,13 @@ The code is separated to few modules, including:
 * administration web appplication - where all attendances, rooms, lecturers, courses and students data can be explored and modified
 
 An end-to-end interaction of the student with the system using the student's id relies on APDU, TCP and HTTP protocols.
+
+
+Desktop client
+---
+![Client](https://raw.githubusercontent.com/zdanowiczkonrad/AttendanceMonitoring/master/docs/images/klient%20akcja%20obecnosc.png)
+
+
+Administration webapp
+---
+![Webapp](https://raw.githubusercontent.com/zdanowiczkonrad/AttendanceMonitoring/master/docs/images/adm%20home.png)
