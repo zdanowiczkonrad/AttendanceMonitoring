@@ -5,7 +5,11 @@ This project gathers all implementations and documentations that were the result
 
 Intro
 ----
-The project solves the goal of controlling a university students' attendance on courses based on her student id, being a Mifare SmartCard given a unique ID, that can be unambiguosly mapped to the student's id. Main functional requirements assume both contactless and contactful interaction with the students' id and an unlimited realtime control and visibility on the present course rooms and students attendances state by the authorized personnas.
+The project solves the goal of controlling a university students' attendance on courses based on her student id, being a Mifare SmartCard given a unique ID, that can be unambiguosly mapped to the student's id. 
+
+![Project idea](https://raw.githubusercontent.com/zdanowiczkonrad/AttendanceMonitoring/master/docs/images/schemat%20glowny%20ulepszony.png)
+
+Main functional requirements assume both contactless and contactful interaction with the students' id and an unlimited realtime control and visibility on the present course rooms and students attendances state by the authorized personnas.
 
 The code is separated to few modules, including:
 * course room client application, handling interactions with students' and lecturers' ids
